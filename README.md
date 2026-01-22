@@ -2,14 +2,16 @@ The objective of this course is to evaluate the influence of ``preprocessing`` i
 
 This repository contains :
 
-- Slides in PDF : `Pre_processing.pdf`
-- A simple notebook to quickly compare different pre-processing techniques:
-  - `01_run_experiments_simple_single_task.ipynb` (Kaggle dataset on text categorization)
-- Another example with a multilingual task (language identification using `corpus_muli.zip`):
-  - 01_DiagLang.ipynb
-- Now it's up to you to find the best pre-processing configuration for two other tasks :
+- These slides (PDF) in French and English
+- A simple notebook illustrating multi-class classification:
+  - `01_run_experiments_simple_task.ipynb` (Kaggle dataset)
+- Another example based on a well-known multilingual dataset:
+  - `corpus_multi.zip`
+  - `02_DiagLang.ipynb`
+- We then experiment with a different dataset:
   - https://www.kaggle.com/datasets/suraj520/multi-task-learning
-  - https://www.kaggle.com/datasets/azimulh/tweets-data-for-authorship-attribution-modelling
-- The objective is to try different classification models (ML, language models) with differ preprocessing configurations in order to find :
-  - What preprocessing combinations work best
-  - How much this depends on the learning method 
+  - `03_Sentiment_analysis.ipynb`
+- The objective is to compare different classifiers and to understand:
+  - which preprocessing steps are the most effective
+  - how preprocessing effectiveness depends on the classifier
+  - how it depends on the task, the type of text, and the language ...
